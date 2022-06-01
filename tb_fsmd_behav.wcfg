@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fsmd_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_fsmd" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="59.255956 us"></ZoomStartTime>
+      <ZoomEndTime time="69.542099 us"></ZoomEndTime>
+      <Cursor1Time time="100.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="260"></NameColumnWidth>
+      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_fsmd/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/n" type="array">
+      <obj_property name="ElementShortName">n[5:0]</obj_property>
+      <obj_property name="ObjectShortName">n[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/fib" type="array">
+      <obj_property name="ElementShortName">fib[42:0]</obj_property>
+      <obj_property name="ObjectShortName">fib[42:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/per" type="other">
+      <obj_property name="ElementShortName">per</obj_property>
+      <obj_property name="ObjectShortName">per</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/uut/t0_next" type="array">
+      <obj_property name="ElementShortName">t0_next[42:0]</obj_property>
+      <obj_property name="ObjectShortName">t0_next[42:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/uut/t0_reg" type="array">
+      <obj_property name="ElementShortName">t0_reg[42:0]</obj_property>
+      <obj_property name="ObjectShortName">t0_reg[42:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/uut/t1_next" type="array">
+      <obj_property name="ElementShortName">t1_next[42:0]</obj_property>
+      <obj_property name="ObjectShortName">t1_next[42:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/uut/t1_reg" type="array">
+      <obj_property name="ElementShortName">t1_reg[42:0]</obj_property>
+      <obj_property name="ObjectShortName">t1_reg[42:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/uut/fib_n_next" type="array">
+      <obj_property name="ElementShortName">fib_n_next[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fib_n_next[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fsmd/uut/fib_n_reg" type="array">
+      <obj_property name="ElementShortName">fib_n_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fib_n_reg[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
